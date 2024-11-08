@@ -9,4 +9,4 @@ Mapa Interativo: Localize pontos de coleta de materiais recicláveis em Timóteo
 Informações Úteis: Cada ponto inclui detalhes sobre os tipos de materiais aceitos.
 
 📌 Acesso ao Mapa
-Acesse o mapa aqui (adicione o link do mapa).
+Acesse o mapa aqui (https://reciclatimoteo.netlify.app/).
