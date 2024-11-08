@@ -1,4 +1,5 @@
 Recicla Timóteo ♻️
+
 Recicla Timóteo é um projeto para ajudar a população de Timóteo a encontrar pontos de coleta de lixo reciclável, promovendo a reciclagem e a conscientização ambiental na cidade.
 
 🌍 Objetivo
