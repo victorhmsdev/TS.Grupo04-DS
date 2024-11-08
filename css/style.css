@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: Arial;
+    background-image: linear-gradient(#072f66, #d53900);
+    height: 100vh;
+}
+
+#mapa {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+#logo {
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: white;
+}
+
+#titulo {
+    margin-left: 14%;
+}
+
+#categorias {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    margin-right: 3%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: #051d3f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
