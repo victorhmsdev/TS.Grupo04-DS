@@ -7,14 +7,14 @@
 body {
     color: white;
     font-family: Arial;
-    background-image: linear-gradient(#072f66, #d53900);
+    background-image: linear-gradient(#072f66, #6a1c00);
     height: 100vh;
 }
 
 #mapa {
     display: flex;
     justify-content: center;
-    padding-top: 200px;
+    padding-top: 10px;
 }
 
 ul {
@@ -31,7 +31,7 @@ ul {
 }
 
 #titulo {
-    margin-left: 14%;
+    margin-left: 15%;
 }
 
 #categorias {
@@ -55,3 +55,18 @@ header {
     z-index: 999px;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 }
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px; 
+    font-size: 20px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
