@@ -7,13 +7,15 @@
 body {
     color: white;
     font-family: Arial;
-    background-image: linear-gradient(#072f66, #006a32);
+    background-image: linear-gradient(#072f66, #006a32, #072f66);
     height: 100vh;
 }
 
 #mapa {
     display: flex;
     justify-content: center;
+    height: 100%;
+    width: 100%;
     padding-top: 10px;
 }
 
