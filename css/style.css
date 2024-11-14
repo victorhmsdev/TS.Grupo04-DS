@@ -102,3 +102,9 @@ header {
     justify-content: center;
     align-items: center; 
 }
+
+#grupo {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
