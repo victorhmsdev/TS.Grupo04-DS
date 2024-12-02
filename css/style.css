@@ -21,8 +21,6 @@ body {
 
 ul {    
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 16px;
 }
 
@@ -33,14 +31,10 @@ ul {
 }
 
 #titulo {
-    margin-left: 10%;
-}
-
-#categorias {
     display: flex;
-    gap: 50px;
-    list-style-type: none;
-    margin-right: 3%;
+    margin: auto auto;
+    
+    
 }
 
 a {
@@ -107,4 +101,5 @@ header {
     padding-top: 50px;
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
 }
