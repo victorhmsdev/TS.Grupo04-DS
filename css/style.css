@@ -21,11 +21,11 @@ body {
 }
 
 #mapa iframe {
-    width: 100%; /* Responsivo para ocupar o espaço do container */
-    max-width: 900px; /* Limite de largura para mapas em telas maiores */
-    height: 500px; /* Altura padrão */
-    border: 2px solid white; /* Melhor visualização */
-    border-radius: 8px; /* Bordas arredondadas */
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    border: 2px solid white; 
+    border-radius: 8px;
 }
 
 ul {    
