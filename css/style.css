@@ -39,6 +39,27 @@ ul {
     border-radius: 50%;
 }
 
+.navbar {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens */
+    justify-content: center; /* Centraliza todo o conteúdo */
+    padding: 0 20px;
+    height: 80px; /* Altura fixa do cabeçalho */
+    background-color: #051d3f; /* Cor de fundo */
+}
+
+.navbar-brand {
+    position: absolute; /* Remove do fluxo principal para não interferir na centralização */
+    left: 20px; /* Posiciona o logotipo à esquerda */
+}
+
+.navbar-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
 #titulo {
     display: flex;
     margin: auto;
@@ -47,13 +68,19 @@ ul {
 }
 
 header {
-    background-color: #051d3f;
+    background-color: white; /* Mude para branco */
+    color: black; /* Ajuste a cor do texto para contraste */
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 999;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+#logo-container {
+    position: absolute; /* Remove o logotipo do fluxo normal */
+    left: 20px; /* Garante que o logotipo fique à esquerda */
 }
 
 footer {
@@ -78,4 +105,34 @@ footer {
     max-width: 100%;
     height: auto;
     border-radius: 8px; 
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: center;
+        padding: 0 10px;
+        height: auto;
+    }
+
+    .navbar-brand {
+        position: relative;
+        left: 0;
+        margin-right: 10px;
+    }
+
+    .navbar-text {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%; 
+    }
 }
