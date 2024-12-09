@@ -41,46 +41,27 @@ ul {
 
 .navbar {
     display: flex;
-    align-items: center; /* Alinha verticalmente os itens */
-    justify-content: center; /* Centraliza todo o conteúdo */
+    align-items: center; 
+    justify-content: center;
     padding: 0 20px;
-    height: 80px; /* Altura fixa do cabeçalho */
-    background-color: #051d3f; /* Cor de fundo */
+    height: 80px;
+    background-color: #051d3f;
 }
 
 .navbar-brand {
-    position: absolute; /* Remove do fluxo principal para não interferir na centralização */
-    left: 20px; /* Posiciona o logotipo à esquerda */
-}
-
-.navbar-text {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-}
-
-#titulo {
-    display: flex;
-    margin: auto;
-    font-size: 1.5rem;
-    color: white;
+    position: absolute; 
+    left: 20px;
 }
 
 header {
-    background-color: white; /* Mude para branco */
-    color: black; /* Ajuste a cor do texto para contraste */
+    background-color: white; 
+    color: black; 
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 999;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-}
-
-#logo-container {
-    position: absolute; /* Remove o logotipo do fluxo normal */
-    left: 20px; /* Garante que o logotipo fique à esquerda */
 }
 
 footer {
@@ -95,7 +76,6 @@ footer {
 }
 
 #grupo {
-
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
